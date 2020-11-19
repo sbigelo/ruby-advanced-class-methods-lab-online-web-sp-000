@@ -46,8 +46,8 @@ class Song
   end
   
   def self.new_from_filename(filename)
-    filename = self.create
-    self.all.gsub(/[.mp3]/, )
+   
+    
   end
-"Ruby".gsub!(/[tyru]/, '<\1>')   
+
 end
