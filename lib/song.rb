@@ -25,11 +25,12 @@ class Song
 
   def self.create_by_name(sname)
     song = self.create
-    song.save
     song.name = sname
     song
   
   end
+
+
 
   def self.find_by_name(sname)
     self.all.detect{|person| person.name == sname}
