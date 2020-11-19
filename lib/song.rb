@@ -42,12 +42,10 @@ class Song
   end
 
   def self.alphabetical
-    self.all.sort_by { |a| a.name }
+    self.all.sort_by{ |a| a.name }
   end
   
-  def self.alphabetical
-    self.all.sort_by{|s| s.name}
-  end
+  
   
   def self.new_from_filename(filename)
     seperate = filename.split(" - ")
